@@ -40,7 +40,7 @@ header{
     background-color: #0C325A;
     height: 500px;
     background-image: url(/assets/img/background-header.png);
-    background-size: 1000px;
+    background-size: 800px;
     background-repeat: no-repeat;
     background-position: 115% bottom;
     position: relative
@@ -159,5 +159,45 @@ nav div a{
 
 
 /**** Site Main ****/
+
+/* Promo Text */
+
+.promo {
+    background-color: #D3D3D3;
+    text-align: center;
+}
+
+.promo h3{
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.promo p{
+    padding-bottom: 2rem;
+    color: #808080;
+}
+
+/* Columns */
+
+.columns{
+    background-color: white;
+    text-align: center;
+}
+
+.piano, .affiancamento, .monitora{
+    float: left;
+    height: 300px;
+    width: 32%;
+    background-color: purple;
+}
+
+.affiancamento{
+    margin: 0 2%
+}
+
+
+
+
+
 
 /**** Site Footer ****/
