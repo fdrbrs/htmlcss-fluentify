@@ -6,14 +6,21 @@
     padding: 0;
 }
 
+clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
 /* Utility Rules */
 
 body{
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
-    background-color: paleturquoise;
+    background-color: #0C325A;
     height: 600px;
 }
 
@@ -27,9 +34,88 @@ footer{
     height: 300px;
 }
 
+.container{
+    margin: auto;
+    width: 85%;
+}
+
 /**** Site Header ****/
 
 /* Nav bar */
+
+nav{
+    text-transform: uppercase;
+    height: 60px;
+    line-height: 60px;
+}
+
+nav div a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.logo, .first_menu, .second_menu{
+    float: left;
+}
+
+.logo{
+    width: 15%;
+    padding: 10px 0;
+}
+
+.first_menu{
+    width: 45%;
+    text-align: center;
+}
+
+
+.second_menu{
+    width: 40%;
+    text-align: right;
+}
+
+.first_menu a{
+    padding-left: 5px;
+}
+
+.first_menu a:hover{
+    color: #7CBB02;
+}
+
+.second_menu>a:first-child:hover{
+    color: #7CBB02;
+}
+
+.button{
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.empty{
+    border: 1px solid white;
+    padding: 5px 20px;
+}
+
+.empty:hover{
+    background-color: #7CBB02;
+    border: 1px solid #7CBB02;
+}
+
+.full{
+    background-color: #7CBB02;
+    padding: 5px 5px;
+    border: 1px solid #7CBB02;
+}
+
+.full:hover{
+    background-color: #0C325A;
+    border: 1px solid white;
+}
+
+
+
 
 /**** Site Main ****/
 
