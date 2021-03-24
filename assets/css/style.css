@@ -19,11 +19,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-header{
-    background-color: #0C325A;
-    height: 600px;
-}
-
 main{
     background-color: palevioletred;
     height: 900px;
@@ -40,6 +35,16 @@ footer{
 }
 
 /**** Site Header ****/
+
+header{
+    background-color: #0C325A;
+    height: 500px;
+    background-image: url(/assets/img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 115% bottom;
+    position: relative
+}
 
 /* Nav bar */
 
@@ -64,15 +69,10 @@ nav div a{
     padding: 10px 0;
 }
 
+/* First Menu */
 .first_menu{
     width: 45%;
     text-align: center;
-}
-
-
-.second_menu{
-    width: 40%;
-    text-align: right;
 }
 
 .first_menu a{
@@ -83,9 +83,19 @@ nav div a{
     color: #7CBB02;
 }
 
+/* Second Menu */
+
+.second_menu{
+    width: 40%;
+    text-align: right;
+}
+
+
 .second_menu>a:first-child:hover{
     color: #7CBB02;
 }
+
+/* Buttons */
 
 .button{
     border-radius: 5px;
@@ -95,7 +105,7 @@ nav div a{
 
 .empty{
     border: 1px solid white;
-    padding: 5px 20px;
+    padding: 5px 25px;
 }
 
 .empty:hover{
@@ -114,6 +124,37 @@ nav div a{
     border: 1px solid white;
 }
 
+/* Hero Text */
+
+.hero_textbox{
+    color: white;
+    width: 50%;
+    margin-left: 7.5%;
+    position: absolute;
+    bottom: 30%;
+
+}
+
+.hero_textbox h1{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.hero_textbox a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #7CBB02;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 1px solid #7CBB02;
+}
+
+.hero_textbox a:hover{
+    background-color: #0C325A;
+    border: 1px solid white
+}
 
 
 
