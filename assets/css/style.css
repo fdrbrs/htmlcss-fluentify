@@ -1,0 +1,36 @@
+/* Common Rules */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility Rules */
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: paleturquoise;
+    height: 600px;
+}
+
+main{
+    background-color: palevioletred;
+    height: 900px;
+}
+
+footer{
+    background-color: lightgreen;
+    height: 300px;
+}
+
+/**** Site Header ****/
+
+/* Nav bar */
+
+/**** Site Main ****/
+
+/**** Site Footer ****/
