@@ -170,6 +170,7 @@ nav div a{
 .promo h3{
     padding-top: 2rem;
     padding-bottom: 0.5rem;
+    font-size: 1.5rem;
 }
 
 .promo p{
@@ -177,23 +178,50 @@ nav div a{
     color: #808080;
 }
 
-/* Columns */
+/* Section Columns */
 
 .columns{
     background-color: white;
     text-align: center;
+    height: 50%;
+    margin-top: 2rem;
 }
 
 .piano, .affiancamento, .monitora{
     float: left;
-    height: 300px;
+    height: 100%;
     width: 32%;
-    background-color: purple;
 }
 
 .affiancamento{
     margin: 0 2%
 }
+
+.column img{
+    height: 200px;
+}
+
+.column h2{
+    color: #7CBB02;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.column h2::after{
+    content: '';
+    width: 70px;
+    height: 1px;
+    background-color: #808080;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.column p{
+    color: #808080;
+}
+
 
 
 
