@@ -38,7 +38,7 @@ footer{
 header{
     background-color: #0C325A;
     height: 500px;
-    background-image: url(/assets/img/background-header.png);
+    background-image: url(../img/background-header.png);
     background-size: 800px;
     background-repeat: no-repeat;
     background-position: 115% bottom;
